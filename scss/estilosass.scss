@@ -1,0 +1,42 @@
+$rosa : #FAE1DD;
+$gris : #adb5bd;
+$cremita: #F8EDEB;
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+   background-color: $cremita;
+
+     header {
+        height: 200px;
+        width: 100%;
+        background-color: $rosa;
+     }
+
+     footer {
+      height: 200px;
+      width: 100%;
+      background-color: $gris;
+     }
+}
+
+// ----------- HEADER ------------
+.comunicate {
+   height: 40px;
+   width: 100%;
+   background-color: black;
+}
+
+.comunicate--texto {
+   color: white;
+   font-size: 20px;
+   text-align: center;
+}
+
+.logo {
+   height: 150px;
+}
